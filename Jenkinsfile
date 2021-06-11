@@ -1,7 +1,7 @@
 pipeline { 
 // 
     environment { 
-        registry = "dimuit86/node-demo-app" 
+        registry = "imalka03/node-demo-app" 
         registryCredential = 'DockerHubAuth' 
         dockerImage = '' 
     }
@@ -13,7 +13,7 @@ pipeline {
             steps { 
                 git branch: 'main',
                 credentialsId: 'GitHubPersonalAccessToken',
-                url: 'https://github.com/dimuit86/jenkins-pipeline.git'
+                url: 'https://github.com/ict17860/jenkins-pipeline.git'
                 // git 'https://github.com/dimuit86/jenkins-pipeline.git' 
             }
 
