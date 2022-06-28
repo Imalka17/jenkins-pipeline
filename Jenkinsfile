@@ -11,10 +11,10 @@ pipeline {
     stages { 
         stage('Cloning our Git') { 
             steps { 
-                // git branch: 'main',
-                // credentialsId: 'GitHubPersonalAccessToken',
-               // url: 'https://github.com/ict17860/jenkins-pipeline.git'
-                 git 'https://github.com/ict17860/jenkins-pipeline.git' 
+                 git branch: 'main',
+                 credentialsId: 'TestGit',
+                 url: 'https://github.com/ict17860/jenkins-pipeline.git'
+                // git 'https://github.com/ict17860/jenkins-pipeline.git' 
             }
 
             // steps { 
