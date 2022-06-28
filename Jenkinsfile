@@ -13,8 +13,8 @@ pipeline {
             steps { 
                 // git branch: 'main',
                 // credentialsId: 'GitHubPersonalAccessToken',
-                url: 'https://github.com/ict17860/jenkins-pipeline.git'
-                // git 'https://github.com/dimuit86/jenkins-pipeline.git' 
+               // url: 'https://github.com/ict17860/jenkins-pipeline.git'
+                 git 'https://github.com/ict17860/jenkins-pipeline.git' 
             }
 
             // steps { 
