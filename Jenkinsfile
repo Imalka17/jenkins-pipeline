@@ -12,7 +12,7 @@ pipeline {
         stage('Cloning our Git') { 
             steps { 
                  git branch: 'main',
-                 credentialsId: 'TestGit',
+                 credentialsId: 'Git-Token',
                  url: 'https://github.com/ict17860/jenkins-pipeline.git'
                 // git 'https://github.com/ict17860/jenkins-pipeline.git' 
             }
