@@ -2,7 +2,7 @@ pipeline {
 // 
     environment { 
         registry = "imalka03/node-js-demo" 
-        registryCredential = 'Jenkin-Docker-Auth' 
+        registryCredential = 'DockerHub_Auth' 
         dockerImage = '' 
     }
 
